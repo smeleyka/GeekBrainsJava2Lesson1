@@ -22,6 +22,9 @@ public class MainClass {
                 System.out.println(c.getName() + " - не прошел дистанцию");
             }
         }
-        competitors[1].info();
+        String[] arr = {"кон","GT","пере"};
+        Team one = new Team("jujytr",arr);
+
+        System.out.println(one.competitorArr[2]);
     }
 }
