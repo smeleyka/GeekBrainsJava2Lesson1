@@ -1,13 +1,7 @@
 package ru.geekbrains.competition;
 
-import ru.geekbrains.competition.competitors.Cat;
-import ru.geekbrains.competition.competitors.Competitor;
-import ru.geekbrains.competition.competitors.Dog;
-import ru.geekbrains.competition.competitors.Human;
-import ru.geekbrains.competition.obstacles.Cross;
-import ru.geekbrains.competition.obstacles.Obstacle;
-import ru.geekbrains.competition.obstacles.Wall;
-import ru.geekbrains.competition.obstacles.Water;
+import ru.geekbrains.competition.competitors.*;
+import ru.geekbrains.competition.obstacles.*;
 
 public class MainClass {
     public static void main(String[] args) {
