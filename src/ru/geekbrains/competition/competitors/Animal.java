@@ -13,7 +13,7 @@ public abstract class Animal implements Competitor{
     }
 
     public void info() {
-        System.out.println(name+" "+type+" "+maxJumpHeight);
+        System.out.println(name+" "+type);
     }
 
     public boolean isOnDistance() {
