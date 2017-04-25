@@ -1,6 +1,6 @@
 package ru.geekbrains.competition.competitors;
 
-public interface Competitor {
+public interface Competitor{
     void info();
     String getName();
     boolean isOnDistance();

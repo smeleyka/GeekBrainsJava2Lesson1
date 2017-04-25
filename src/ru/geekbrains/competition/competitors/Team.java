@@ -1,8 +1,6 @@
 package ru.geekbrains.competition.competitors;
 
 
-import javax.sound.midi.Soundbank;
-
 /**
  * Created by admin on 23.04.2017.
  */
@@ -41,5 +39,9 @@ public class Team {
             if (c.isOnDistance()) System.out.println(c.getName()+" прошел все испытания");
             else System.out.println(c.getName()+" не смог дойти до финиша");
         }
+    }
+
+    public Competitor[] getCompetitors() {
+        return competitors;
     }
 }
